@@ -1,0 +1,132 @@
+$icon_font_name:"Icons";
+@font-face {
+	font-family:$icon_font_name;
+	src: url('fonts/Icons.eot');
+	src: url('fonts/Icons.eot?#iefix') format('eot'),
+	url('fonts/Icons.woff') format('woff'),
+	url('fonts/Icons.ttf') format('truetype'),
+	url('fonts/Icons.svg#Icons') format('svg');
+}
+[class*='icon-']:before{
+   font-family: $icon_font_name;
+   font-style: normal;
+   font-weight: normal;
+   line-height: 1;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale
+}
+
+.icon-ico01:before {
+	content:'\E001';
+}
+.icon-ico02:before {
+	content:'\E002';
+}
+.icon-ico03:before {
+	content:'\E003';
+}
+.icon-ico04:before {
+	content:'\E004';
+}
+.icon-ico05:before {
+	content:'\E005';
+}
+.icon-ico06:before {
+	content:'\E006';
+}
+.icon-ico07:before {
+	content:'\E007';
+}
+.icon-ico08:before {
+	content:'\E008';
+}
+.icon-ico09:before {
+	content:'\E009';
+}
+.icon-ico10:before {
+	content:'\E00A';
+}
+.icon-ico11:before {
+	content:'\E00B';
+}
+.icon-ico12:before {
+	content:'\E00C';
+}
+.icon-ico13:before {
+	content:'\E00D';
+}
+.icon-ico14:before {
+	content:'\E00E';
+}
+.icon-ico15:before {
+	content:'\E00F';
+}
+.icon-ico16:before {
+	content:'\E010';
+}
+.icon-ico17:before {
+	content:'\E011';
+}
+.icon-ico18:before {
+	content:'\E012';
+}
+.icon-ico19:before {
+	content:'\E013';
+}
+.icon-ico20:before {
+	content:'\E014';
+}
+.icon-ico21:before {
+	content:'\E015';
+}
+.icon-ico22:before {
+	content:'\E016';
+}
+.icon-ico23:before {
+	content:'\E017';
+}
+.icon-ico24:before {
+	content:'\E018';
+}
+.icon-ico25:before {
+	content:'\E019';
+}
+.icon-ico26:before {
+	content:'\E01A';
+}
+.icon-ico27:before {
+	content:'\E01B';
+}
+.icon-ico28:before {
+	content:'\E01C';
+}
+.icon-ico29:before {
+	content:'\E01D';
+}
+.icon-ico30:before {
+	content:'\E01E';
+}
+.icon-ico31:before {
+	content:'\E01F';
+}
+.icon-ico32:before {
+	content:'\E020';
+}
+.icon-ico33:before {
+	content:'\E021';
+}
+.icon-ico34:before {
+	content:'\E022';
+}
+.icon-ico35:before {
+	content:'\E023';
+}
+.icon-logo01:before {
+	content:'\E024';
+}
+.icon-logo02:before {
+	content:'\E025';
+}
+.icon-simvolika:before {
+	content:'\E026';
+}
