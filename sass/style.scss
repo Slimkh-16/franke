@@ -229,6 +229,7 @@ h5 {
 }
 .content-center__info {
   padding-top: 4px;
+  padding-bottom: 30px;
   width: 485px;
   max-width: 100%;
   display: inline-block;
@@ -375,6 +376,7 @@ h5 {
   right: -30px;
   padding: 5px;
   background:#fff;
+  box-shadow: 3px 4px 5px rgba(0,0,0,0.3);
   overflow: hidden;
   transform:scale(0);
   opacity: 0;
@@ -408,6 +410,7 @@ h5 {
   overflow: hidden;
   img {
     width: auto;
+    margin: 0 auto;
     max-width: none;
     height: 335px;
   }
@@ -552,7 +555,7 @@ h5 {
    }
  } 
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 600px) and (max-width: 1023px) {
  .nav-item:nth-child(2n) {
    .nav-item__hover-box {
      right: 0;
@@ -589,6 +592,9 @@ h5 {
   }
   .detail-page-slider {
     width: 35%;
+  }
+  .container {
+    padding: 0 20px;
   }
 }
 @media screen and (max-width: 1023px) {
